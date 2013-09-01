@@ -6,7 +6,7 @@ package rebeka.security
  */
 class SecurityFilters {
     def filters = {
-        all(uri: "/**") {
+        all(uri: "/secret/**") {
             before = {
                 // Ignore direct views (e.g. the default main index page).
                 if (!controllerName) return true
