@@ -1,8 +1,8 @@
-package rebeka
+package com.apa
 
 import org.apache.shiro.SecurityUtils
 import org.apache.shiro.web.session.mgt.DefaultWebSessionManager
-import rebeka.security.User
+import com.apa.security.User
 
 class DebugController {
     def shiroSecurityManager

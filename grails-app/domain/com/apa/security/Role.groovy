@@ -1,4 +1,4 @@
-package rebeka.security
+package com.apa.security
 
 class Role {
     String name

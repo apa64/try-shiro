@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>try-rebekashiro</name>
+	<name>try-shiro</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -26,7 +26,7 @@
 		<link>
 			<name>.link_to_grails_plugins</name>
 			<type>2</type>
-			<locationURI>GRAILS_ROOT/2.2.2/projects/try-rebekashiro/plugins</locationURI>
+			<locationURI>GRAILS_ROOT/2.2.2/projects/try-shiro/plugins</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

@@ -1,6 +1,7 @@
 import org.apache.shiro.grails.ShiroSecurityService
-import rebeka.security.Role
-import rebeka.security.User
+
+import com.apa.security.Role
+import com.apa.security.User
 
 class BootStrap {
     ShiroSecurityService shiroSecurityService
@@ -8,6 +9,7 @@ class BootStrap {
     def mySessionManager
 
     def initShiro() {
+        // DefaultWebSessionManager with MySessionListener
         shiroSecurityManager.sessionManager = mySessionManager
     }
 

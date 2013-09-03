@@ -1,4 +1,4 @@
-package rebeka.security
+package com.apa.security
 
 import org.apache.commons.logging.LogFactory
 import org.apache.shiro.authc.AuthenticationException
@@ -7,7 +7,7 @@ import org.apache.shiro.authc.AuthenticationListener
 import org.apache.shiro.authc.AuthenticationToken
 import org.apache.shiro.subject.PrincipalCollection
 
-class RebekaAuthcListener implements AuthenticationListener {
+class MyAuthcListener implements AuthenticationListener {
     private static final log = LogFactory.getLog(this)
     @Override
     public void onSuccess(AuthenticationToken token, AuthenticationInfo info) {

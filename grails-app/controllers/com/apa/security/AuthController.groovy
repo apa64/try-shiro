@@ -1,4 +1,4 @@
-package rebeka.security
+package com.apa.security
 
 import org.apache.shiro.SecurityUtils
 import org.apache.shiro.authc.AuthenticationException

@@ -93,5 +93,5 @@ log4j = {
 
     info 'org.apache.shiro'
 
-    debug 'grails.app', 'rebeka'
+    debug 'grails.app', 'com.apa'
 }
