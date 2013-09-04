@@ -1,5 +1,4 @@
 import org.apache.shiro.grails.ShiroSecurityService
-
 import com.apa.security.Role
 import com.apa.security.User
 

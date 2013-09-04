@@ -5,15 +5,19 @@ import com.apa.security.MySessionListener
 
 // Place your Spring DSL code here
 beans = {
+    // my session listener
     mySessionListener(MySessionListener)
-
+    // a session manager, assigned to shiroSecurityManager in Bootstrap
     mySessionManager(DefaultWebSessionManager) {
         sessionListeners = [ ref ("mySessionListener") ]
     }
 
-    authListener(MyAuthcListener)
+    myAuthcListener(MyAuthcListener)
+    // override shiroAuthenticator bean from plugin
     shiroAuthenticator(ModularRealmAuthenticator) {
+        // default auth strategy from plugin
         authenticationStrategy = ref("shiroAuthenticationStrategy")
-        authenticationListeners = [ ref("authListener") ]
+        // my authentication listener
+        authenticationListeners = [ ref("myAuthcListener") ]
     }
 }

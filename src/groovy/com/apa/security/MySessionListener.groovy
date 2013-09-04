@@ -10,5 +10,6 @@ class MySessionListener extends SessionListenerAdapter {
     public void onStart(Session session) {
         super.onStart(session)
         log.debug("onStart() +, session=${session.id}")
+
     }
 }

@@ -17,11 +17,13 @@ The story so far:
 * [assert nativesession](http://localhost:8080/try-shiro/debug/nativesession)
 * [permission check "user:read:*"](http://localhost:8080/try-shiro/debug/permission?p=user:read:*)
 
-## Components
+## Essential resources
 
 * [Grails](http://grails.org/)
 * [grails-shiro-plugin](http://grails.org/plugin/shiro)
 * [Shiro framework](http://shiro.apache.org/)
+* [Grails Authentication with Shiro](http://coderberry.me/blog/2012/04/26/grails-authentication-with-shiro/) (Bootstrap.groovy from here)
+* [Using Grails Shiro plugin](http://suryazi.blogspot.fi/)
 
 ## Markdown
 
